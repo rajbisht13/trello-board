@@ -22,7 +22,7 @@ export default function ListForm(props: any) {
   }
 
   return (
-    <form onSubmit={handleSubmit} noValidate>
+    <form onSubmit={handleSubmit}>
       <h4 className='text-center'>Add List</h4>
       <div className='padding-tb-16'>
         <label htmlFor='name'>Name</label>
