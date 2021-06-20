@@ -1,0 +1,19 @@
+.list {
+  min-width: 300px;
+  padding: 16px;
+  margin: 16px;
+  border: 1px solid #666;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-footer {
+  display: flex;
+  justify-content: center;
+}
